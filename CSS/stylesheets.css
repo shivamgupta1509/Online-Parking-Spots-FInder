@@ -1,0 +1,96 @@
+body{
+    margin-top: 50px;
+}
+.navbar-dark{
+    background-color: #512dab
+}
+.jumbotron{
+    background-color: rgb(140, 120, 231);
+}
+.row-header{
+    color: azure;
+}
+.row-content{
+   margin-bottom: 20px;
+}
+.title{
+    font-weight: 500;
+    font-family: fantasy;
+    color: cyan;
+}
+.carousel {
+    background: #eddffa; }
+.carousel .carousel-item {
+    height: 600px; }
+
+.carousel .carousel-item img {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    height:400px;
+    width: 80%;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: double;
+    
+    
+}
+
+.carousel-caption h2{
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #2a3d66;
+    text-shadow: 5px 5px 5px magenta;
+    
+}
+.carousel-caption p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: lighter;
+    color: #590995;
+    
+}
+.carousel-indicators li{
+    background-color:darkviolet;
+}
+.carousel-control-prev-icon {
+    background-color: darkblue;
+}
+.carousel-control-next-icon{
+    background-color: darkblue;
+}
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1; 
+}
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px; 
+}
+#welcomeimg{
+    margin-left: 60px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 50%;   
+}
+#userdis{
+    text-align: center;
+    font-family: cursive;
+    color: cyan;
+}
+#fspotimg{
+    height: 50%;
+    width: auto;
+    border-style: double;
+    border-radius: 20%;
+}
+#addspotimg{
+    height: 60%;
+    width: auto;
+    border-style: double;
+    border-radius: 20%;
+}
